@@ -1,0 +1,5 @@
+gradle-8.4/
+gradle-8.4.zip
+.gradle/
+build/
+*.zip
