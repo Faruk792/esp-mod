@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "esp-mod",
+  "version": "1.0.0",
+  "name": "ESP Mod",
+  "entrypoints": {
+    "client": ["com.esp.client.EspMod"]
+  },
+  "mixins": ["mixins.esp.json"],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric-api": "*",
+    "minecraft": "1.20.x"
+  }
+}
